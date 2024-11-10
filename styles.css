@@ -1,0 +1,41 @@
+.button-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#zero {
+  grid-column: 2 span;
+}
+
+#calculate {
+  grid-column: 4 span;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculate-wrapper {
+  width: 600px;
+}
+
+button {
+  height: 80px;
+  font-size: 30px;
+}
+
+input {
+  box-sizing: border-box;
+  padding-left: 10px;
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(151, 255, 173);
+}
